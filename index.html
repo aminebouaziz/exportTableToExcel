@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <table id="tblData">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>john@gmail.com</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Michael Addison</td>
+            <td>michael@gmail.com</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Sam Farmer</td>
+            <td>sam@gmail.com</td>
+            <td>France</td>
+        </tr>
+    </table>
+    <button onclick="exportTableToExcel('tblData', 'members-data')">Export Table Data To Excel File</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
